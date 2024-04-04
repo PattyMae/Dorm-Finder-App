@@ -1,0 +1,550 @@
+[
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_darkmode.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/darkmode.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_map_bottomdialog_fragment_dialog_fragment.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/map_bottomdialog_fragment_dialog_fragment.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_rete_dormitory.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/rete_dormitory.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_recommendations.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/recommendations.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_search.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/search.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_notification.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/notification.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_convo_post.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/convo_post.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_filter.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/filter.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_logout.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/logout.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_welcome3.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/welcome3.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_heart_colored.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/heart_colored.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_booking.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/booking.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_logout.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/logout.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_down.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/down.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_settings_security.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/settings_security.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_welcome_map.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/welcome_map.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_settings_notification.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/settings_notification.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_ic_edit_black.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/ic_edit_black.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_signin_setup.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/signin_setup.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_dormitory.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/dormitory.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_featured.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/featured.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_ic_hotel_black.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/ic_hotel_black.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_add_dorm_post.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/add_dorm_post.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_forgot_password.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/forgot_password.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_message_fragment.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/message_fragment.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_dorm_location.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/dorm_location.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_welcome_reminder.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/welcome_reminder.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_profile_colored.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/profile_colored.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_view_photo.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/view_photo.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_reviews.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/reviews.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_notification_post.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/notification_post.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_search_post.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/search_post.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_upp.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/upp.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_user_details.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/user_details.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_temporary.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/temporary.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_filter.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/filter.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_admin_dashboard.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/admin_dashboard.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_account.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/account.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_security.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/security.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_ic_arrow_back_black.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/ic_arrow_back_black.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_welcome5.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/welcome5.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_not_found.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/not_found.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_bedroom_post.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/bedroom_post.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_welcome_reminder.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/welcome_reminder.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_dormitory_details.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/dormitory_details.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_dorm_colored.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/dorm_colored.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_show.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/show.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_main.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/main.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_signin_dialog.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/signin_dialog.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_ic_add_white.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/ic_add_white.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_home_colored.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/home_colored.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_chat_post.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/chat_post.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_admin_post.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/admin_post.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_admin_homepage.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/admin_homepage.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_slider_dot.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/slider_dot.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_ic_highlight_remove_black.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/ic_highlight_remove_black.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_signup_with_password.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/signup_with_password.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_cancel_booking.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/cancel_booking.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_welcome2.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/welcome2.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_ic_email_black.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/ic_email_black.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_language.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/language.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_homepage_post_gridview.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/homepage_post_gridview.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_ic_place_black.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/ic_place_black.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_review_post.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/review_post.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_logo.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/logo.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_booking_post.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/booking_post.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_explore_colored.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/explore_colored.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_search_user.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/search_user.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_user_post.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/user_post.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_app_icon.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/app_icon.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_welcome.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/welcome.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_photo1.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/photo1.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/raw_notification.mp3.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/raw/notification.mp3"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_admin_home_fragment.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/admin_home_fragment.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_homepage_post.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/homepage_post.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_payments.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/payments.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_gallery.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/gallery.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_booking.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/booking.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_photo2.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/photo2.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_ic_arrow_drop_down_black.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/ic_arrow_drop_down_black.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_notification.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/notification.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_loading.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/loading.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_hide.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/hide.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_welcome1.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/welcome1.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_ic_location_searching_black.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/ic_location_searching_black.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_message.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/message.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_ic_chevron_right_black.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/ic_chevron_right_black.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_home.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/home.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_location_bottomdialog_fragment_dialog_fragment.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/location_bottomdialog_fragment_dialog_fragment.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_filter_bottomdialog_fragment_dialog_fragment.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/filter_bottomdialog_fragment_dialog_fragment.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_dashboard.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/dashboard.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_dorm1.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/dorm1.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_scan.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/scan.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_explore_fragment.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/explore_fragment.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_insert_image.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/insert_image.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_invite.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/invite.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_home_fragment.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/home_fragment.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_google.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/google.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_admin_dormitory_fragment.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/admin_dormitory_fragment.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_booking_rates.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/booking_rates.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_all_reviews.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/all_reviews.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_set_location.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/set_location.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_profile.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/profile.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_rates_post.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/rates_post.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_bell.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/bell.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_map_display.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/map_display.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_facebook.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/facebook.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_welcome6.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/welcome6.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_profile.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/profile.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_my_booking.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/my_booking.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_explore_post.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/explore_post.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_olive_dorm_photo1.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/olive_dorm_photo1.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_calendar.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/calendar.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_message_colored.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/message_colored.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_admin_booking.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/admin_booking.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_payment.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/payment.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_account_fragment.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/account_fragment.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_ic_arrow_forward_black.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/ic_arrow_forward_black.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_more.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/more.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_apple.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/apple.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_flag.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/flag.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_heart.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/heart.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_info.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/info.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_logout_bottomdialog_fragment_dialog_fragment.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/logout_bottomdialog_fragment_dialog_fragment.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_ic_lock_black.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/ic_lock_black.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_how.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/how.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_search.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/search.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_welcome4.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/welcome4.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_login_signup.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/login_signup.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_dorm.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/dorm.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_welcome1.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/welcome1.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_booking_details.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/booking_details.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_about.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/about.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_send.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/send.png"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_slider.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/slider.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/layout_chat.xml.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/layout/chat.xml"
+    },
+    {
+        "merged": "fastrust.dorm.finder.app-merged_res-45:/drawable-xhdpi_default_image.png.flat",
+        "source": "fastrust.dorm.finder.app-main-47:/drawable-xhdpi/default_image.png"
+    }
+]

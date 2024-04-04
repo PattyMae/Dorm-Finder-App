@@ -1,0 +1,450 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/bg"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#FFFFFF"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/top"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="16dp"
+			android:paddingTop="8dp"
+			android:paddingRight="16dp"
+			android:paddingBottom="8dp"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/back"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/ic_arrow_back_black"
+				android:scaleType="center" />
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="4dp"
+				android:padding="8dp"
+				android:text="Rate Dormitory"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:textColor="#176B87" />
+		</LinearLayout>
+		<ScrollView
+			android:id="@+id/vscroll1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_weight="1">
+			<LinearLayout
+				android:id="@+id/linear3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear1"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:orientation="vertical"
+					android:layout_weight="1">
+					<LinearLayout
+						android:id="@+id/linear4"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:paddingBottom="1dp"
+						android:background="#F5F5F5"
+						android:orientation="horizontal">
+						<TextView
+							android:id="@+id/textview2"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:background="#FFFFFF"
+							android:gravity="center_horizontal|center_vertical"
+							android:text="Leave a Review"
+							android:textSize="20sp"
+							android:textColor="#607D8B" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear5"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview3"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingLeft="8dp"
+							android:paddingTop="8dp"
+							android:paddingRight="8dp"
+							android:text="Overall Satisfaction (Optional)"
+							android:textSize="16sp"
+							android:textStyle="bold"
+							android:textColor="#607D8B" />
+						<TextView
+							android:id="@+id/textview4"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="How would you rate your overall experience staying at the dormitory\?"
+							android:textSize="16sp"
+							android:textColor="#607D8B" />
+						<RatingBar
+							android:id="@+id/ratingbar1"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							style="@android:attr/ratingBarStyleSmall"
+							android:isIndicator="false"
+							android:max="5"
+							android:numStars="5"
+							android:layout_gravity="center"
+							android:progressBackgroundTint="#ff505055"
+							android:progressTint="#FFEB3B"
+							android:secondaryProgressTint="#ff505055" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear16"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview7"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingLeft="8dp"
+							android:paddingTop="8dp"
+							android:paddingRight="8dp"
+							android:text="Cleanliness (Optional)"
+							android:textSize="16sp"
+							android:textStyle="bold"
+							android:textColor="#607D8B" />
+						<TextView
+							android:id="@+id/textview8"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="How would you rate the cleanliness and condition of the dormitory facilities\?"
+							android:textSize="16sp"
+							android:textColor="#607D8B" />
+						<RatingBar
+							android:id="@+id/ratingbar2"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							style="@android:attr/ratingBarStyleSmall"
+							android:isIndicator="false"
+							android:max="5"
+							android:numStars="5"
+							android:layout_gravity="center"
+							android:progressBackgroundTint="#ff505055"
+							android:progressTint="#FFEB3B"
+							android:secondaryProgressTint="#ff505055" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear8"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview9"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingLeft="8dp"
+							android:paddingTop="8dp"
+							android:paddingRight="8dp"
+							android:text="Location (Optional)"
+							android:textSize="16sp"
+							android:textStyle="bold"
+							android:textColor="#607D8B" />
+						<TextView
+							android:id="@+id/textview10"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="How convenient was the dormitory's location for your needs\?"
+							android:textSize="16sp"
+							android:textColor="#607D8B" />
+						<RatingBar
+							android:id="@+id/ratingbar3"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							style="@android:attr/ratingBarStyleSmall"
+							android:isIndicator="false"
+							android:max="5"
+							android:numStars="5"
+							android:layout_gravity="center"
+							android:progressBackgroundTint="#ff505055"
+							android:progressTint="#FFEB3B"
+							android:secondaryProgressTint="#ff505055" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear9"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview17"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingLeft="8dp"
+							android:paddingTop="8dp"
+							android:paddingRight="8dp"
+							android:text="Facilities and Amenities (Optional)"
+							android:textSize="16sp"
+							android:textStyle="bold"
+							android:textColor="#607D8B" />
+						<TextView
+							android:id="@+id/textview18"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="How satisfied were you with the facilities and amenities provided by the dormitory (e.g., common areas, bed, bathrooms\?"
+							android:textSize="16sp"
+							android:textColor="#607D8B" />
+						<RatingBar
+							android:id="@+id/ratingbar4"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							style="@android:attr/ratingBarStyleSmall"
+							android:isIndicator="false"
+							android:max="5"
+							android:numStars="5"
+							android:layout_gravity="center"
+							android:progressBackgroundTint="#ff505055"
+							android:progressTint="#FFEB3B"
+							android:secondaryProgressTint="#ff505055" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear10"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview11"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingLeft="8dp"
+							android:paddingTop="8dp"
+							android:paddingRight="8dp"
+							android:text="Room Comfort (Optional)"
+							android:textSize="16sp"
+							android:textStyle="bold"
+							android:textColor="#607D8B" />
+						<TextView
+							android:id="@+id/textview12"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="How comfortable was your dormitory room\?"
+							android:textSize="16sp"
+							android:textColor="#607D8B" />
+						<RatingBar
+							android:id="@+id/ratingbar5"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							style="@android:attr/ratingBarStyleSmall"
+							android:isIndicator="false"
+							android:max="5"
+							android:numStars="5"
+							android:layout_gravity="center"
+							android:progressBackgroundTint="#ff505055"
+							android:progressTint="#FFEB3B"
+							android:secondaryProgressTint="#ff505055" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear11"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview13"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingLeft="8dp"
+							android:paddingTop="8dp"
+							android:paddingRight="8dp"
+							android:text="Booking Process (Optional)"
+							android:textSize="16sp"
+							android:textStyle="bold"
+							android:textColor="#607D8B" />
+						<TextView
+							android:id="@+id/textview14"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="How easy was the booking process for the dormitory\?"
+							android:textSize="16sp"
+							android:textColor="#607D8B" />
+						<RatingBar
+							android:id="@+id/ratingbar6"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							style="@android:attr/ratingBarStyleSmall"
+							android:isIndicator="false"
+							android:max="5"
+							android:numStars="5"
+							android:layout_gravity="center"
+							android:progressBackgroundTint="#ff505055"
+							android:progressTint="#FFEB3B"
+							android:secondaryProgressTint="#ff505055" />
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear12"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:paddingBottom="1dp"
+						android:background="#F5F5F5"
+						android:orientation="vertical">
+						<LinearLayout
+							android:id="@+id/linear17"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:background="#FFFFFF"
+							android:orientation="vertical">
+							<TextView
+								android:id="@+id/textview15"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:paddingLeft="8dp"
+								android:paddingTop="8dp"
+								android:paddingRight="8dp"
+								android:text="Recommendation (Optional)"
+								android:textSize="16sp"
+								android:textStyle="bold"
+								android:textColor="#607D8B" />
+							<TextView
+								android:id="@+id/textview16"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:padding="8dp"
+								android:text="Would you recommend this dormitory to others\?"
+								android:textSize="16sp"
+								android:textColor="#607D8B" />
+							<RatingBar
+								android:id="@+id/ratingbar7"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								style="@android:attr/ratingBarStyleSmall"
+								android:isIndicator="false"
+								android:max="5"
+								android:numStars="5"
+								android:layout_gravity="center"
+								android:progressBackgroundTint="#ff505055"
+								android:progressTint="#FFEB3B"
+								android:secondaryProgressTint="#ff505055" />
+						</LinearLayout>
+					</LinearLayout>
+					<LinearLayout
+						android:id="@+id/linear13"
+						android:layout_width="match_parent"
+						android:layout_height="200dp"
+						android:padding="8dp"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview6"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:text="Write Your Review (Optional)"
+							android:textSize="16sp"
+							android:textStyle="bold"
+							android:textColor="#607D8B" />
+						<EditText
+							android:id="@+id/edittext1"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:background="@android:color/transparent"
+							android:textSize="16sp"
+							android:textColor="#000000"
+							android:hint="Your review here..."
+							android:textColorHint="#607D8B" />
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+		<LinearLayout
+			android:id="@+id/bottom"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="vertical">
+			<Switch
+				android:id="@+id/switch1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:gravity="left"
+				android:text="Anonymous"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#607D8B" />
+			<LinearLayout
+				android:id="@+id/linear15"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal">
+				<androidx.cardview.widget.CardView
+					android:id="@+id/cardview1"
+					android:layout_width="100dp"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="8dp"
+					android:layout_marginTop="8dp"
+					android:layout_marginRight="4dp"
+					android:layout_marginBottom="8dp"
+					android:orientation="vertical"
+					android:layout_weight="1"
+					app:cardElevation="0dp"
+					app:cardCornerRadius="100dp">
+					<TextView
+						android:id="@+id/maybe_later_btn"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:paddingLeft="8dp"
+						android:paddingTop="16dp"
+						android:paddingRight="8dp"
+						android:paddingBottom="16dp"
+						android:gravity="center_horizontal|center_vertical"
+						android:text="Maybe Later"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#176B87" />
+				</androidx.cardview.widget.CardView>
+				<androidx.cardview.widget.CardView
+					android:id="@+id/cardview2"
+					android:layout_width="100dp"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="4dp"
+					android:layout_marginTop="8dp"
+					android:layout_marginRight="8dp"
+					android:layout_marginBottom="8dp"
+					android:orientation="vertical"
+					android:layout_weight="1"
+					app:cardElevation="0dp"
+					app:cardCornerRadius="100dp">
+					<TextView
+						android:id="@+id/submit_btn"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:paddingLeft="8dp"
+						android:paddingTop="16dp"
+						android:paddingRight="8dp"
+						android:paddingBottom="16dp"
+						android:background="#176B87"
+						android:gravity="center_horizontal|center_vertical"
+						android:text="Submit"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF" />
+				</androidx.cardview.widget.CardView>
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,972 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="fastrust.dorm.finder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml
+10	xmlns:tools="http://schemas.android.com/tools">
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:5:2-64
+11-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:5:19-61
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:6:2-63
+12-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:6:19-60
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:7:2-76
+13-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:7:19-73
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:8:2-77
+14-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:8:19-74
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:9:2-78
+15-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:9:19-75
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:10:2-76
+16-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:10:19-73
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+17-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:11:2-74
+17-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:11:19-71
+18    <uses-permission android:name="QUERY_ALL_PACKAGES" />
+18-->[com.github.abodinagdat16:EveryThingUtils:v2.4] C:\Users\ASUS\.gradle\caches\transforms-3\bdfe01ea8c1e6fa6fa44b4fd51e90712\transformed\EveryThingUtils-v2.4\AndroidManifest.xml:9:5-58
+18-->[com.github.abodinagdat16:EveryThingUtils:v2.4] C:\Users\ASUS\.gradle\caches\transforms-3\bdfe01ea8c1e6fa6fa44b4fd51e90712\transformed\EveryThingUtils-v2.4\AndroidManifest.xml:9:22-55
+19    <uses-permission android:name="MANAGE_EXTERNAL_STORAGE" />
+19-->[com.github.abodinagdat16:EveryThingUtils:v2.4] C:\Users\ASUS\.gradle\caches\transforms-3\bdfe01ea8c1e6fa6fa44b4fd51e90712\transformed\EveryThingUtils-v2.4\AndroidManifest.xml:10:5-63
+19-->[com.github.abodinagdat16:EveryThingUtils:v2.4] C:\Users\ASUS\.gradle\caches\transforms-3\bdfe01ea8c1e6fa6fa44b4fd51e90712\transformed\EveryThingUtils-v2.4\AndroidManifest.xml:10:22-60
+20    <uses-permission android:name="READ_EXTERNAL_STORAGE" />
+20-->[com.github.abodinagdat16:EveryThingUtils:v2.4] C:\Users\ASUS\.gradle\caches\transforms-3\bdfe01ea8c1e6fa6fa44b4fd51e90712\transformed\EveryThingUtils-v2.4\AndroidManifest.xml:11:5-61
+20-->[com.github.abodinagdat16:EveryThingUtils:v2.4] C:\Users\ASUS\.gradle\caches\transforms-3\bdfe01ea8c1e6fa6fa44b4fd51e90712\transformed\EveryThingUtils-v2.4\AndroidManifest.xml:11:22-58
+21    <uses-permission android:name="WRITE_EXTERNAL_STORAGE" />
+21-->[com.github.abodinagdat16:EveryThingUtils:v2.4] C:\Users\ASUS\.gradle\caches\transforms-3\bdfe01ea8c1e6fa6fa44b4fd51e90712\transformed\EveryThingUtils-v2.4\AndroidManifest.xml:12:5-62
+21-->[com.github.abodinagdat16:EveryThingUtils:v2.4] C:\Users\ASUS\.gradle\caches\transforms-3\bdfe01ea8c1e6fa6fa44b4fd51e90712\transformed\EveryThingUtils-v2.4\AndroidManifest.xml:12:22-59
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\0fb1c789ace8087080634f9e461879ac\transformed\play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\0fb1c789ace8087080634f9e461879ac\transformed\play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\0fb1c789ace8087080634f9e461879ac\transformed\play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+26
+27    <queries>
+27-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\0fb1c789ace8087080634f9e461879ac\transformed\play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+28
+29        <!-- Needs to be explicitly declared on Android R+ -->
+30        <package android:name="com.google.android.apps.maps" />
+30-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\0fb1c789ace8087080634f9e461879ac\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+30-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\0fb1c789ace8087080634f9e461879ac\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+31    </queries>
+32
+33    <uses-permission android:name="android.permission.WAKE_LOCK" />
+33-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\405feddecb2720124c6e9c98b3c94bf9\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:5-68
+33-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\405feddecb2720124c6e9c98b3c94bf9\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:24:22-65
+34    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+34-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\405feddecb2720124c6e9c98b3c94bf9\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
+34-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\405feddecb2720124c6e9c98b3c94bf9\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
+35    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+35-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\405feddecb2720124c6e9c98b3c94bf9\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
+35-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\405feddecb2720124c6e9c98b3c94bf9\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
+36    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+36-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\405feddecb2720124c6e9c98b3c94bf9\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
+36-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\405feddecb2720124c6e9c98b3c94bf9\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
+37    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+37-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\d996143f1847912f8a8fd3b251bc663a\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
+37-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\d996143f1847912f8a8fd3b251bc663a\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
+38
+39    <permission
+39-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\1bc181bf83fe7f137d322a28e6e77f97\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+40        android:name="fastrust.dorm.finder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\1bc181bf83fe7f137d322a28e6e77f97\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\1bc181bf83fe7f137d322a28e6e77f97\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="fastrust.dorm.finder.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\1bc181bf83fe7f137d322a28e6e77f97\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\1bc181bf83fe7f137d322a28e6e77f97\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+44
+45    <application
+45-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:12:2-323:16
+46        android:allowBackup="true"
+46-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:13:3-29
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.9.0] C:\Users\ASUS\.gradle\caches\transforms-3\1bc181bf83fe7f137d322a28e6e77f97\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+48        android:debuggable="true"
+49        android:extractNativeLibs="false"
+50        android:icon="@drawable/app_icon"
+50-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:14:3-36
+51        android:label="@string/app_name"
+51-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:15:3-35
+52        android:requestLegacyExternalStorage="true"
+52-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:16:3-46
+53        android:supportsRtl="true"
+53-->[com.shobhitpuri.custombuttons:google-signin:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\60a9d0b0f4e1a056f9782a07f99786e1\transformed\google-signin-1.1.0\AndroidManifest.xml:13:9-35
+54        android:testOnly="true"
+55        android:theme="@style/AppTheme"
+55-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:18:3-34
+56        android:usesCleartextTraffic="true" >
+56-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:17:3-38
+57        <activity
+57-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:19:3-31:14
+58            android:name="fastrust.dorm.finder.MainActivity"
+58-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:20:4-32
+59            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+59-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:21:4-97
+60            android:exported="true"
+60-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:26:4-27
+61            android:hardwareAccelerated="true"
+61-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:22:4-38
+62            android:screenOrientation="portrait"
+62-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:24:4-40
+63            android:supportsPictureInPicture="true"
+63-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:23:4-43
+64            android:windowSoftInputMode="stateHidden" >
+64-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:25:4-45
+65            <intent-filter>
+65-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:27:4-30:20
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:28:5-57
+66-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:28:13-54
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:29:5-65
+68-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:29:15-62
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:32:3-38:48
+72            android:name="fastrust.dorm.finder.WelcomeActivity"
+72-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:33:4-35
+73            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+73-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:34:4-97
+74            android:hardwareAccelerated="true"
+74-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:35:4-38
+75            android:screenOrientation="portrait"
+75-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:37:4-40
+76            android:supportsPictureInPicture="true"
+76-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:36:4-43
+77            android:windowSoftInputMode="stateHidden" />
+77-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:38:4-45
+78        <activity
+78-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:39:3-45:48
+79            android:name="fastrust.dorm.finder.LoginSignupActivity"
+79-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:40:4-39
+80            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+80-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:41:4-97
+81            android:hardwareAccelerated="true"
+81-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:42:4-38
+82            android:screenOrientation="portrait"
+82-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:44:4-40
+83            android:supportsPictureInPicture="true"
+83-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:43:4-43
+84            android:windowSoftInputMode="stateHidden" />
+84-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:45:4-45
+85        <activity
+85-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:46:3-52:48
+86            android:name="fastrust.dorm.finder.SignupWithPasswordActivity"
+86-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:47:4-46
+87            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+87-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:48:4-97
+88            android:hardwareAccelerated="true"
+88-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:49:4-38
+89            android:screenOrientation="portrait"
+89-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:51:4-40
+90            android:supportsPictureInPicture="true"
+90-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:50:4-43
+91            android:windowSoftInputMode="stateHidden" />
+91-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:52:4-45
+92        <activity
+92-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:53:3-59:48
+93            android:name="fastrust.dorm.finder.SigninSetupActivity"
+93-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:54:4-39
+94            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+94-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:55:4-97
+95            android:hardwareAccelerated="true"
+95-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:56:4-38
+96            android:screenOrientation="portrait"
+96-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:58:4-40
+97            android:supportsPictureInPicture="true"
+97-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:57:4-43
+98            android:windowSoftInputMode="stateHidden" />
+98-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:59:4-45
+99        <activity
+99-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:60:3-66:48
+100            android:name="fastrust.dorm.finder.ForgotPasswordActivity"
+100-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:61:4-42
+101            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+101-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:62:4-97
+102            android:hardwareAccelerated="true"
+102-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:63:4-38
+103            android:screenOrientation="portrait"
+103-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:65:4-40
+104            android:supportsPictureInPicture="true"
+104-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:64:4-43
+105            android:windowSoftInputMode="stateHidden" />
+105-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:66:4-45
+106        <activity
+106-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:67:3-73:48
+107            android:name="fastrust.dorm.finder.MyBookingActivity"
+107-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:68:4-37
+108            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+108-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:69:4-97
+109            android:hardwareAccelerated="true"
+109-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:70:4-38
+110            android:screenOrientation="portrait"
+110-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:72:4-40
+111            android:supportsPictureInPicture="true"
+111-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:71:4-43
+112            android:windowSoftInputMode="stateHidden" />
+112-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:73:4-45
+113        <activity
+113-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:74:3-80:48
+114            android:name="fastrust.dorm.finder.PaymentsActivity"
+114-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:75:4-36
+115            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+115-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:76:4-97
+116            android:hardwareAccelerated="true"
+116-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:77:4-38
+117            android:screenOrientation="portrait"
+117-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:79:4-40
+118            android:supportsPictureInPicture="true"
+118-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:78:4-43
+119            android:windowSoftInputMode="stateHidden" />
+119-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:80:4-45
+120        <activity
+120-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:81:3-87:48
+121            android:name="fastrust.dorm.finder.ProfileActivity"
+121-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:82:4-35
+122            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+122-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:83:4-97
+123            android:hardwareAccelerated="true"
+123-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:84:4-38
+124            android:screenOrientation="portrait"
+124-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:86:4-40
+125            android:supportsPictureInPicture="true"
+125-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:85:4-43
+126            android:windowSoftInputMode="stateHidden" />
+126-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:87:4-45
+127        <activity
+127-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:88:3-94:48
+128            android:name="fastrust.dorm.finder.SigninDialogActivity"
+128-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:89:4-40
+129            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+129-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:90:4-97
+130            android:hardwareAccelerated="true"
+130-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:91:4-38
+131            android:screenOrientation="portrait"
+131-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:93:4-40
+132            android:supportsPictureInPicture="true"
+132-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:92:4-43
+133            android:windowSoftInputMode="stateHidden" />
+133-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:94:4-45
+134        <activity
+134-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:95:3-101:48
+135            android:name="fastrust.dorm.finder.FilterActivity"
+135-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:96:4-34
+136            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+136-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:97:4-97
+137            android:hardwareAccelerated="true"
+137-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:98:4-38
+138            android:screenOrientation="portrait"
+138-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:100:4-40
+139            android:supportsPictureInPicture="true"
+139-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:99:4-43
+140            android:windowSoftInputMode="stateHidden" />
+140-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:101:4-45
+141        <activity
+141-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:102:3-108:48
+142            android:name="fastrust.dorm.finder.WelcomeMapActivity"
+142-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:103:4-38
+143            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+143-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:104:4-97
+144            android:hardwareAccelerated="true"
+144-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:105:4-38
+145            android:screenOrientation="portrait"
+145-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:107:4-40
+146            android:supportsPictureInPicture="true"
+146-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:106:4-43
+147            android:windowSoftInputMode="stateHidden" />
+147-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:108:4-45
+148        <activity
+148-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:109:3-115:48
+149            android:name="fastrust.dorm.finder.AdminHomepageActivity"
+149-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:110:4-41
+150            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+150-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:111:4-97
+151            android:hardwareAccelerated="true"
+151-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:112:4-38
+152            android:screenOrientation="portrait"
+152-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:114:4-40
+153            android:supportsPictureInPicture="true"
+153-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:113:4-43
+154            android:windowSoftInputMode="stateHidden" />
+154-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:115:4-45
+155        <activity
+155-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:116:3-122:48
+156            android:name="fastrust.dorm.finder.NotificationActivity"
+156-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:117:4-40
+157            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+157-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:118:4-97
+158            android:hardwareAccelerated="true"
+158-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:119:4-38
+159            android:screenOrientation="portrait"
+159-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:121:4-40
+160            android:supportsPictureInPicture="true"
+160-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:120:4-43
+161            android:windowSoftInputMode="stateHidden" />
+161-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:122:4-45
+162        <activity
+162-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:123:3-129:48
+163            android:name="fastrust.dorm.finder.DashboardActivity"
+163-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:124:4-37
+164            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+164-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:125:4-97
+165            android:hardwareAccelerated="true"
+165-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:126:4-38
+166            android:screenOrientation="portrait"
+166-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:128:4-40
+167            android:supportsPictureInPicture="true"
+167-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:127:4-43
+168            android:windowSoftInputMode="stateHidden" />
+168-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:129:4-45
+169        <activity
+169-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:130:3-136:49
+170            android:name="fastrust.dorm.finder.SearchActivity"
+170-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:131:4-34
+171            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+171-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:132:4-97
+172            android:hardwareAccelerated="true"
+172-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:133:4-38
+173            android:screenOrientation="portrait"
+173-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:135:4-40
+174            android:supportsPictureInPicture="true"
+174-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:134:4-43
+175            android:windowSoftInputMode="stateVisible" />
+175-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:136:4-46
+176        <activity
+176-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:137:3-143:48
+177            android:name="fastrust.dorm.finder.FeaturedActivity"
+177-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:138:4-36
+178            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+178-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:139:4-97
+179            android:hardwareAccelerated="true"
+179-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:140:4-38
+180            android:screenOrientation="portrait"
+180-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:142:4-40
+181            android:supportsPictureInPicture="true"
+181-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:141:4-43
+182            android:windowSoftInputMode="stateHidden" />
+182-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:143:4-45
+183        <activity
+183-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:144:3-150:48
+184            android:name="fastrust.dorm.finder.RecommendationsActivity"
+184-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:145:4-43
+185            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+185-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:146:4-97
+186            android:hardwareAccelerated="true"
+186-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:147:4-38
+187            android:screenOrientation="portrait"
+187-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:149:4-40
+188            android:supportsPictureInPicture="true"
+188-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:148:4-43
+189            android:windowSoftInputMode="stateHidden" />
+189-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:150:4-45
+190        <activity
+190-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:151:3-157:48
+191            android:name="fastrust.dorm.finder.DormitoryDetailsActivity"
+191-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:152:4-44
+192            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+192-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:153:4-97
+193            android:hardwareAccelerated="true"
+193-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:154:4-38
+194            android:screenOrientation="portrait"
+194-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:156:4-40
+195            android:supportsPictureInPicture="true"
+195-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:155:4-43
+196            android:windowSoftInputMode="stateHidden" />
+196-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:157:4-45
+197        <activity
+197-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:158:3-164:48
+198            android:name="fastrust.dorm.finder.GalleryActivity"
+198-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:159:4-35
+199            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+199-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:160:4-97
+200            android:hardwareAccelerated="true"
+200-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:161:4-38
+201            android:screenOrientation="portrait"
+201-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:163:4-40
+202            android:supportsPictureInPicture="true"
+202-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:162:4-43
+203            android:windowSoftInputMode="stateHidden" />
+203-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:164:4-45
+204        <activity
+204-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:165:3-171:48
+205            android:name="fastrust.dorm.finder.BookingActivity"
+205-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:166:4-35
+206            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+206-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:167:4-97
+207            android:hardwareAccelerated="true"
+207-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:168:4-38
+208            android:screenOrientation="portrait"
+208-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:170:4-40
+209            android:supportsPictureInPicture="true"
+209-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:169:4-43
+210            android:windowSoftInputMode="stateHidden" />
+210-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:171:4-45
+211        <activity
+211-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:172:3-178:48
+212            android:name="fastrust.dorm.finder.AdminDashboardActivity"
+212-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:173:4-42
+213            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+213-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:174:4-97
+214            android:hardwareAccelerated="true"
+214-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:175:4-38
+215            android:screenOrientation="portrait"
+215-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:177:4-40
+216            android:supportsPictureInPicture="true"
+216-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:176:4-43
+217            android:windowSoftInputMode="stateHidden" />
+217-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:178:4-45
+218        <activity
+218-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:179:3-185:48
+219            android:name="fastrust.dorm.finder.SettingsNotificationActivity"
+219-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:180:4-48
+220            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+220-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:181:4-97
+221            android:hardwareAccelerated="true"
+221-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:182:4-38
+222            android:screenOrientation="portrait"
+222-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:184:4-40
+223            android:supportsPictureInPicture="true"
+223-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:183:4-43
+224            android:windowSoftInputMode="stateHidden" />
+224-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:185:4-45
+225        <activity
+225-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:186:3-192:48
+226            android:name="fastrust.dorm.finder.SettingsSecurityActivity"
+226-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:187:4-44
+227            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+227-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:188:4-97
+228            android:hardwareAccelerated="true"
+228-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:189:4-38
+229            android:screenOrientation="portrait"
+229-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:191:4-40
+230            android:supportsPictureInPicture="true"
+230-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:190:4-43
+231            android:windowSoftInputMode="stateHidden" />
+231-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:192:4-45
+232        <activity
+232-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:193:3-199:48
+233            android:name="fastrust.dorm.finder.ChatActivity"
+233-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:194:4-32
+234            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+234-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:195:4-97
+235            android:hardwareAccelerated="true"
+235-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:196:4-38
+236            android:screenOrientation="portrait"
+236-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:198:4-40
+237            android:supportsPictureInPicture="true"
+237-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:197:4-43
+238            android:windowSoftInputMode="stateHidden" />
+238-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:199:4-45
+239        <activity
+239-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:200:3-206:49
+240            android:name="fastrust.dorm.finder.SearchUserActivity"
+240-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:201:4-38
+241            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+241-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:202:4-97
+242            android:hardwareAccelerated="true"
+242-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:203:4-38
+243            android:screenOrientation="portrait"
+243-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:205:4-40
+244            android:supportsPictureInPicture="true"
+244-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:204:4-43
+245            android:windowSoftInputMode="stateVisible" />
+245-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:206:4-46
+246        <activity
+246-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:207:3-213:48
+247            android:name="fastrust.dorm.finder.ReviewsActivity"
+247-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:208:4-35
+248            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+248-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:209:4-97
+249            android:hardwareAccelerated="true"
+249-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:210:4-38
+250            android:screenOrientation="portrait"
+250-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:212:4-40
+251            android:supportsPictureInPicture="true"
+251-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:211:4-43
+252            android:windowSoftInputMode="stateHidden" />
+252-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:213:4-45
+253        <activity
+253-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:214:3-220:48
+254            android:name="fastrust.dorm.finder.BookingDetailsActivity"
+254-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:215:4-42
+255            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+255-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:216:4-97
+256            android:hardwareAccelerated="true"
+256-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:217:4-38
+257            android:screenOrientation="portrait"
+257-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:219:4-40
+258            android:supportsPictureInPicture="true"
+258-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:218:4-43
+259            android:windowSoftInputMode="stateHidden" />
+259-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:220:4-45
+260        <activity
+260-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:221:3-227:48
+261            android:name="fastrust.dorm.finder.CancelBookingActivity"
+261-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:222:4-41
+262            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+262-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:223:4-97
+263            android:hardwareAccelerated="true"
+263-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:224:4-38
+264            android:screenOrientation="portrait"
+264-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:226:4-40
+265            android:supportsPictureInPicture="true"
+265-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:225:4-43
+266            android:windowSoftInputMode="stateHidden" />
+266-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:227:4-45
+267        <activity
+267-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:228:3-234:48
+268            android:name="fastrust.dorm.finder.AdminBookingActivity"
+268-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:229:4-40
+269            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+269-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:230:4-97
+270            android:hardwareAccelerated="true"
+270-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:231:4-38
+271            android:screenOrientation="portrait"
+271-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:233:4-40
+272            android:supportsPictureInPicture="true"
+272-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:232:4-43
+273            android:windowSoftInputMode="stateHidden" />
+273-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:234:4-45
+274        <activity
+274-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:235:3-241:48
+275            android:name="fastrust.dorm.finder.UserDetailsActivity"
+275-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:236:4-39
+276            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+276-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:237:4-97
+277            android:hardwareAccelerated="true"
+277-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:238:4-38
+278            android:screenOrientation="portrait"
+278-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:240:4-40
+279            android:supportsPictureInPicture="true"
+279-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:239:4-43
+280            android:windowSoftInputMode="stateHidden" />
+280-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:241:4-45
+281        <activity
+281-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:242:3-248:48
+282            android:name="fastrust.dorm.finder.ReteDormitoryActivity"
+282-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:243:4-41
+283            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+283-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:244:4-97
+284            android:hardwareAccelerated="true"
+284-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:245:4-38
+285            android:screenOrientation="portrait"
+285-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:247:4-40
+286            android:supportsPictureInPicture="true"
+286-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:246:4-43
+287            android:windowSoftInputMode="stateHidden" />
+287-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:248:4-45
+288        <activity
+288-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:249:3-255:48
+289            android:name="fastrust.dorm.finder.AllReviewsActivity"
+289-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:250:4-38
+290            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+290-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:251:4-97
+291            android:hardwareAccelerated="true"
+291-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:252:4-38
+292            android:screenOrientation="portrait"
+292-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:254:4-40
+293            android:supportsPictureInPicture="true"
+293-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:253:4-43
+294            android:windowSoftInputMode="stateHidden" />
+294-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:255:4-45
+295        <activity
+295-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:256:3-262:48
+296            android:name="fastrust.dorm.finder.Welcome1Activity"
+296-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:257:4-36
+297            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+297-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:258:4-97
+298            android:hardwareAccelerated="true"
+298-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:259:4-38
+299            android:screenOrientation="portrait"
+299-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:261:4-40
+300            android:supportsPictureInPicture="true"
+300-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:260:4-43
+301            android:windowSoftInputMode="stateHidden" />
+301-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:262:4-45
+302        <activity
+302-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:263:3-269:48
+303            android:name="fastrust.dorm.finder.WelcomeReminderActivity"
+303-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:264:4-43
+304            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+304-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:265:4-97
+305            android:hardwareAccelerated="true"
+305-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:266:4-38
+306            android:screenOrientation="portrait"
+306-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:268:4-40
+307            android:supportsPictureInPicture="true"
+307-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:267:4-43
+308            android:windowSoftInputMode="stateHidden" />
+308-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:269:4-45
+309        <activity
+309-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:270:3-276:48
+310            android:name="fastrust.dorm.finder.ViewPhotoActivity"
+310-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:271:4-37
+311            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+311-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:272:4-97
+312            android:hardwareAccelerated="true"
+312-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:273:4-38
+313            android:screenOrientation="portrait"
+313-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:275:4-40
+314            android:supportsPictureInPicture="true"
+314-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:274:4-43
+315            android:windowSoftInputMode="stateHidden" />
+315-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:276:4-45
+316        <activity
+316-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:277:3-279:43
+317            android:name="fastrust.dorm.finder.DebugActivity"
+317-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:278:4-33
+318            android:screenOrientation="portrait" />
+318-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:279:4-40
+319
+320        <meta-data
+320-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:280:3-282:60
+321            android:name="com.google.android.gms.version"
+321-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:281:4-49
+322            android:value="@integer/google_play_services_version" />
+322-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:282:4-57
+323
+324        <provider
+324-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:283:3-287:29
+325            android:name="com.google.firebase.provider.FirebaseInitProvider"
+325-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:284:4-68
+326            android:authorities="fastrust.dorm.finder.firebaseinitprovider"
+326-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:285:4-67
+327            android:directBootAware="true"
+327-->[com.google.firebase:firebase-common:20.4.2] C:\Users\ASUS\.gradle\caches\transforms-3\57a41c752f72a3b1028252fc69a2a606\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+328            android:exported="false"
+328-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:286:4-28
+329            android:initOrder="100" />
+329-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:287:4-27
+330
+331        <service
+331-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:288:3-300:13
+332            android:name="com.google.firebase.components.ComponentDiscoveryService"
+332-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:289:4-75
+333            android:directBootAware="true"
+333-->[com.google.firebase:firebase-common:20.4.2] C:\Users\ASUS\.gradle\caches\transforms-3\57a41c752f72a3b1028252fc69a2a606\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+334            android:exported="false" >
+334-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:290:4-28
+335            <meta-data
+335-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:291:4-293:73
+336                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+336-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:292:5-97
+337                android:value="com.google.firebase.components.ComponentRegistrar" />
+337-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:293:5-70
+338            <meta-data
+338-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:294:4-296:73
+339                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+339-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:295:5-97
+340                android:value="com.google.firebase.components.ComponentRegistrar" />
+340-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:296:5-70
+341            <meta-data
+341-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:297:4-299:73
+342                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+342-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:298:5-95
+343                android:value="com.google.firebase.components.ComponentRegistrar" />
+343-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:299:5-70
+344            <meta-data
+344-->[com.google.firebase:firebase-database:20.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\000d1bd4c6a295ccd11a97dd5fd0eb14\transformed\firebase-database-20.3.0\AndroidManifest.xml:29:13-31:85
+345                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+345-->[com.google.firebase:firebase-database:20.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\000d1bd4c6a295ccd11a97dd5fd0eb14\transformed\firebase-database-20.3.0\AndroidManifest.xml:30:17-120
+346                android:value="com.google.firebase.components.ComponentRegistrar" />
+346-->[com.google.firebase:firebase-database:20.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\000d1bd4c6a295ccd11a97dd5fd0eb14\transformed\firebase-database-20.3.0\AndroidManifest.xml:31:17-82
+347            <meta-data
+347-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5547a3ebe30cc99e7c495706e485a987\transformed\firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+348                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+348-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5547a3ebe30cc99e7c495706e485a987\transformed\firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+349                android:value="com.google.firebase.components.ComponentRegistrar" />
+349-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\5547a3ebe30cc99e7c495706e485a987\transformed\firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+350            <meta-data
+350-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\ASUS\.gradle\caches\transforms-3\a3f4a0d6ef6105a666513699213ab695\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:25:13-27:85
+351                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+351-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\ASUS\.gradle\caches\transforms-3\a3f4a0d6ef6105a666513699213ab695\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:26:17-120
+352                android:value="com.google.firebase.components.ComponentRegistrar" />
+352-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\ASUS\.gradle\caches\transforms-3\a3f4a0d6ef6105a666513699213ab695\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:27:17-82
+353            <meta-data
+353-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\ASUS\.gradle\caches\transforms-3\a3f4a0d6ef6105a666513699213ab695\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:28:13-30:85
+354                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+354-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\ASUS\.gradle\caches\transforms-3\a3f4a0d6ef6105a666513699213ab695\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:29:17-117
+355                android:value="com.google.firebase.components.ComponentRegistrar" />
+355-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\ASUS\.gradle\caches\transforms-3\a3f4a0d6ef6105a666513699213ab695\transformed\firebase-appcheck-17.1.1\AndroidManifest.xml:30:17-82
+356            <meta-data
+356-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\405feddecb2720124c6e9c98b3c94bf9\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
+357                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+357-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\405feddecb2720124c6e9c98b3c94bf9\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
+358                android:value="com.google.firebase.components.ComponentRegistrar" />
+358-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\405feddecb2720124c6e9c98b3c94bf9\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
+359            <meta-data
+359-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\0853c7b4d8396fb9333d41007d208a3d\transformed\firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+360                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+360-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\0853c7b4d8396fb9333d41007d208a3d\transformed\firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+361                android:value="com.google.firebase.components.ComponentRegistrar" />
+361-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\0853c7b4d8396fb9333d41007d208a3d\transformed\firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+362            <meta-data
+362-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\0853c7b4d8396fb9333d41007d208a3d\transformed\firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+363                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+363-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\0853c7b4d8396fb9333d41007d208a3d\transformed\firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+364                android:value="com.google.firebase.components.ComponentRegistrar" />
+364-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\0853c7b4d8396fb9333d41007d208a3d\transformed\firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+365            <meta-data
+365-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\ASUS\.gradle\caches\transforms-3\8fc8d703c12e368be03acb69dd846cf8\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+366                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+366-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\ASUS\.gradle\caches\transforms-3\8fc8d703c12e368be03acb69dd846cf8\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+367                android:value="com.google.firebase.components.ComponentRegistrar" />
+367-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\ASUS\.gradle\caches\transforms-3\8fc8d703c12e368be03acb69dd846cf8\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+368            <meta-data
+368-->[com.google.firebase:firebase-common:20.4.2] C:\Users\ASUS\.gradle\caches\transforms-3\57a41c752f72a3b1028252fc69a2a606\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+369                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+369-->[com.google.firebase:firebase-common:20.4.2] C:\Users\ASUS\.gradle\caches\transforms-3\57a41c752f72a3b1028252fc69a2a606\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+370                android:value="com.google.firebase.components.ComponentRegistrar" />
+370-->[com.google.firebase:firebase-common:20.4.2] C:\Users\ASUS\.gradle\caches\transforms-3\57a41c752f72a3b1028252fc69a2a606\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+371        </service>
+372
+373        <meta-data
+373-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:301:3-303:62
+374            android:name="com.google.android.geo.API_KEY"
+374-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:302:4-49
+375            android:value="AIzaSyBvexo2TYy_XqGDQw5OPptKWAMEcLSuFcs" />
+375-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:303:4-59
+376
+377        <activity
+377-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:304:3-308:66
+378            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+378-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:305:4-84
+379            android:excludeFromRecents="true"
+379-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:306:4-37
+380            android:exported="false"
+380-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:307:4-28
+381            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+381-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:308:4-63
+382
+383        <service
+383-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:309:3-312:101
+384            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+384-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:310:4-80
+385            android:exported="true"
+385-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:311:4-27
+386            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+386-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:312:4-98
+387            android:visibleToInstantApps="true" />
+387-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\ASUS\.gradle\caches\transforms-3\237c2aff26b9a38d2ba0991c2ae9bd12\transformed\play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+388
+389        <uses-library
+389-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:313:3-315:31
+390            android:name="org.apache.http.legacy"
+390-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:314:4-41
+391            android:required="false" />
+391-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:315:4-28
+392
+393        <service
+393-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:317:9-321:7
+394            android:name="service.arabware.ArabWareService"
+394-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:318:13-60
+395            android:enabled="true"
+395-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:319:13-35
+396            android:exported="true" />
+396-->C:\Users\ASUS\AndroidStudioProjects\DormFinder\app\src\main\AndroidManifest.xml:320:13-36
+397
+398        <activity
+398-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
+399            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+399-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
+400            android:excludeFromRecents="true"
+400-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
+401            android:exported="true"
+401-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
+402            android:launchMode="singleTask"
+402-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
+403            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+403-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
+404            <intent-filter>
+404-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
+405                <action android:name="android.intent.action.VIEW" />
+405-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+405-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+406
+407                <category android:name="android.intent.category.DEFAULT" />
+407-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+407-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+408                <category android:name="android.intent.category.BROWSABLE" />
+408-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+408-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+409
+410                <data
+410-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+411                    android:host="firebase.auth"
+411-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+412                    android:path="/"
+412-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+413                    android:scheme="genericidp" />
+413-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+414            </intent-filter>
+415        </activity>
+416        <activity
+416-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
+417            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+417-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
+418            android:excludeFromRecents="true"
+418-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
+419            android:exported="true"
+419-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
+420            android:launchMode="singleTask"
+420-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
+421            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+421-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
+422            <intent-filter>
+422-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
+423                <action android:name="android.intent.action.VIEW" />
+423-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+423-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+424
+425                <category android:name="android.intent.category.DEFAULT" />
+425-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+425-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+426                <category android:name="android.intent.category.BROWSABLE" />
+426-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+426-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+427
+428                <data
+428-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+429                    android:host="firebase.auth"
+429-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+430                    android:path="/"
+430-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+431                    android:scheme="recaptcha" />
+431-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\12f68d3e4d87ab71b1a42f2418650402\transformed\firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+432            </intent-filter>
+433        </activity>
+434
+435        <property
+435-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\405feddecb2720124c6e9c98b3c94bf9\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
+436            android:name="android.adservices.AD_SERVICES_CONFIG"
+436-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\405feddecb2720124c6e9c98b3c94bf9\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
+437            android:resource="@xml/ga_ad_services_config" />
+437-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\405feddecb2720124c6e9c98b3c94bf9\transformed\play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
+438
+439        <activity
+439-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\3485658ac78f152e3bf9b635514481cb\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+440            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+440-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\3485658ac78f152e3bf9b635514481cb\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+441            android:exported="false"
+441-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\3485658ac78f152e3bf9b635514481cb\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+442            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+442-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-3\3485658ac78f152e3bf9b635514481cb\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+443
+444        <receiver
+444-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\d996143f1847912f8a8fd3b251bc663a\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:29:9-33:20
+445            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+445-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\d996143f1847912f8a8fd3b251bc663a\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:30:13-85
+446            android:enabled="true"
+446-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\d996143f1847912f8a8fd3b251bc663a\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:31:13-35
+447            android:exported="false" >
+447-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\d996143f1847912f8a8fd3b251bc663a\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:32:13-37
+448        </receiver>
+449
+450        <service
+450-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\d996143f1847912f8a8fd3b251bc663a\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:35:9-38:40
+451            android:name="com.google.android.gms.measurement.AppMeasurementService"
+451-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\d996143f1847912f8a8fd3b251bc663a\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:36:13-84
+452            android:enabled="true"
+452-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\d996143f1847912f8a8fd3b251bc663a\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:37:13-35
+453            android:exported="false" />
+453-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\d996143f1847912f8a8fd3b251bc663a\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:38:13-37
+454        <service
+454-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\d996143f1847912f8a8fd3b251bc663a\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:39:9-43:72
+455            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+455-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\d996143f1847912f8a8fd3b251bc663a\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:40:13-87
+456            android:enabled="true"
+456-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\d996143f1847912f8a8fd3b251bc663a\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:41:13-35
+457            android:exported="false"
+457-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\d996143f1847912f8a8fd3b251bc663a\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
+458            android:permission="android.permission.BIND_JOB_SERVICE" />
+458-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\ASUS\.gradle\caches\transforms-3\d996143f1847912f8a8fd3b251bc663a\transformed\play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
+459
+460        <uses-library
+460-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\ASUS\.gradle\caches\transforms-3\7f92edf92ef5c1de5a669b70db642f65\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+461            android:name="android.ext.adservices"
+461-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\ASUS\.gradle\caches\transforms-3\7f92edf92ef5c1de5a669b70db642f65\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+462            android:required="false" />
+462-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\ASUS\.gradle\caches\transforms-3\7f92edf92ef5c1de5a669b70db642f65\transformed\ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+463
+464        <provider
+464-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\8e617058f5d5da0ec4b9e62667517e2a\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+465            android:name="androidx.startup.InitializationProvider"
+465-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\8e617058f5d5da0ec4b9e62667517e2a\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+466            android:authorities="fastrust.dorm.finder.androidx-startup"
+466-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\8e617058f5d5da0ec4b9e62667517e2a\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+467            android:exported="false" >
+467-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\8e617058f5d5da0ec4b9e62667517e2a\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+468            <meta-data
+468-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\8e617058f5d5da0ec4b9e62667517e2a\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+469                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+469-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\8e617058f5d5da0ec4b9e62667517e2a\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+470                android:value="androidx.startup" />
+470-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\8e617058f5d5da0ec4b9e62667517e2a\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+471            <meta-data
+471-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\transforms-3\94ea5d2ce15724d68003bd1146e9aa9a\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+472                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+472-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\transforms-3\94ea5d2ce15724d68003bd1146e9aa9a\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+473                android:value="androidx.startup" />
+473-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\ASUS\.gradle\caches\transforms-3\94ea5d2ce15724d68003bd1146e9aa9a\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+474            <meta-data
+474-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+475                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+475-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+476                android:value="androidx.startup" />
+476-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+477        </provider>
+478
+479        <receiver
+479-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+480            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+480-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+481            android:directBootAware="false"
+481-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+482            android:enabled="true"
+482-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+483            android:exported="true"
+483-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+484            android:permission="android.permission.DUMP" >
+484-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+485            <intent-filter>
+485-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+486                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+486-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+486-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+487            </intent-filter>
+488            <intent-filter>
+488-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+489                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+489-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+489-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+490            </intent-filter>
+491            <intent-filter>
+491-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+492                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+492-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+492-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+493            </intent-filter>
+494            <intent-filter>
+494-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+495                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+495-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+495-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-3\d472a9f99517df1dc7fc2572fd1f848f\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+496            </intent-filter>
+497        </receiver>
+498    </application>
+499
+500</manifest>

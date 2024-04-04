@@ -1,0 +1,102 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/bg"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="16dp"
+		android:paddingTop="8dp"
+		android:paddingRight="16dp"
+		android:paddingBottom="8dp"
+		android:background="#FFFFFF"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="8dp"
+			android:paddingBottom="8dp"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<androidx.cardview.widget.CardView
+				android:id="@+id/cardview1"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:orientation="vertical"
+				app:cardElevation="0dp"
+				app:cardCornerRadius="100dp">
+				<ImageView
+					android:id="@+id/profile"
+					android:focusable="false"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:padding="8dp"
+					android:background="#F5F5F5"
+					android:src="@drawable/profile"
+					android:scaleType="centerCrop" />
+			</androidx.cardview.widget.CardView>
+			<LinearLayout
+				android:id="@+id/linear2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:layout_weight="1">
+				<TextView
+					android:id="@+id/title"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="8dp"
+					android:paddingTop="8dp"
+					android:paddingRight="8dp"
+					android:text="Account Setup Successfully!"
+					android:textSize="16sp"
+					android:textStyle="bold"
+					android:textColor="#176B87" />
+				<TextView
+					android:id="@+id/date"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:paddingLeft="8dp"
+					android:paddingRight="8dp"
+					android:paddingBottom="8dp"
+					android:text="31 Oct 2023 | 11:15 AM"
+					android:textSize="12sp"
+					android:textColor="#607D8B" />
+			</LinearLayout>
+			<androidx.cardview.widget.CardView
+				android:id="@+id/cardview2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				app:cardElevation="0dp"
+				app:cardCornerRadius="10dp">
+				<TextView
+					android:id="@+id/new_layout"
+					android:focusable="false"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="#176B87"
+					android:text="New"
+					android:textSize="12sp"
+					android:textColor="#FFFFFF" />
+			</androidx.cardview.widget.CardView>
+		</LinearLayout>
+		<TextView
+			android:id="@+id/message"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="Your account creation is successfully, you can now experience our services."
+			android:textSize="12sp"
+			android:textColor="#000000" />
+	</LinearLayout>
+</LinearLayout>

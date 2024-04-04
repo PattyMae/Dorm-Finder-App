@@ -1,0 +1,78 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#FFFFFF"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="16dp"
+			android:paddingTop="8dp"
+			android:paddingRight="16dp"
+			android:paddingBottom="8dp"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			<ImageView
+				android:id="@+id/back"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/ic_arrow_back_black"
+				android:scaleType="center" />
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="4dp"
+				android:padding="8dp"
+				android:text="Bookings"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:textColor="#176B87" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingBottom="1dp"
+			android:background="#F5F5F5"
+			android:orientation="horizontal">
+			<com.google.android.material.tabs.TabLayout
+				android:id="@+id/tablayout1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="#FFFFFF"
+				app:tabGravity="fill"
+				app:tabMode="fixed"
+				app:tabIndicatorHeight="3dp"
+				app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget" />
+		</LinearLayout>
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#F5F5F5"
+			android:orientation="vertical">
+			<androidx.recyclerview.widget.RecyclerView
+				android:id="@+id/recyclerview1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+			<androidx.recyclerview.widget.RecyclerView
+				android:id="@+id/recyclerview2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+			<androidx.recyclerview.widget.RecyclerView
+				android:id="@+id/recyclerview3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
